@@ -1,0 +1,65 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+#centro{
+    min-height: 300px;
+}
+
+#menu {
+    background-color: red;
+    width:100%;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}
+
+#rodape{
+    width:100%;
+    text-align: center;
+}
+
+#rodape h4 {
+    color: red;
+}
+
+.celula_contato{
+    width: 50%;
+    text-align: center;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
+.enfoque{
+    color: red;
+    font-weight: bold;
+}
+
+#categorias {
+    display:block;
+    width:20%;
+    float:left;
+}
+
+#produtos {
+    display: block;
+    width:80%;
+    float:left;
+}
+
+.produto{
+    width: 250px;
+    padding: 5px;
+    float: left;
+}
+
+.desc_produto {
+    height: 170px;
+}
+
+p::selection{background-color: yellow;}
